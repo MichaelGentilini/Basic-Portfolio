@@ -1,0 +1,108 @@
+/* 
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd */
+
+h1 {
+  color: #4aaaa5;
+}
+
+p {
+  color: #777777; 
+  letter-spacing: 2px
+}]
+
+header {
+  border-color: #cccccc;
+  background-color: #ca6c6c;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+/* footer {
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+} */
+
+body {
+  background-color: #ffffff;
+  border-color: #dddddd;  
+  width: 100%;
+}
+
+.bg {
+  background-image: url("../images/white_carbon.png");
+}
+
+.heading {
+  border-bottom-color: #4aaaa5
+}
+
+/* boxes */
+
+.container {
+  background-color: white;
+  width: 960px;
+  margin: auto;
+}
+.box1 {
+  color: #ffffff;
+  width: 280px;
+  height: 50px;
+  background-color: #4aaaa5;
+  text-align: center;
+  }
+
+/* h1.box1 {
+  display: flex;
+  align-items: center */
+}
+
+.main {
+  background: #ffffff;
+  width: 960px;
+  /* Zmargin-left: auto; */
+  margin-right: auto;
+  display: block;
+  border: none;
+  }
+
+
+/* 
+.foot {
+height: 60px;
+font-size: 15px;   
+color: #ffffff;
+text-align: center; */
+
+}
+nav {
+  display: box;
+  margin-bottom: 25px;
+}
+
+/* links */
+
+a:link {
+  color: lightgrey;
+  text-decoration: none;
+  }
+
+a:hover {
+  color #19FFF3;
+}
+
+img {
+  display: block;
+  margin-right: 15px;
+}
+
+.push {
+  height: 500px;
+}
