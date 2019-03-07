@@ -48,7 +48,7 @@
 }
 
 .box4 {
-  background-image: url(../images/Capture.jpg);
+  background-image: url(../images/Safety.JPG);
 
 }
 
@@ -59,9 +59,6 @@
 }
 
 .portfolio-item:hover {
-  background-color: pink;
   background-position: center;
   background-size: 125%;
 }
-
-*/ */
