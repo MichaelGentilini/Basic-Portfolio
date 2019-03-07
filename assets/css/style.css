@@ -21,10 +21,8 @@ body {
   height: 100%;
 }
 
-/* Basics */
 header {
   background-color: #ffffff;
-  /* height: 100%; */
   border-bottom: #666666;
   width: 100%;
   border-bottom-width: 2px;
@@ -73,6 +71,8 @@ nav a span {
   font-weight: 100;
 }
 
+/* Basics */
+
 body {
   background-image: url("../images/white_carbon_@2X.png");
   display: flex;
@@ -99,7 +99,6 @@ footer {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 5px;
-
 }
 
 .footer {
@@ -120,7 +119,7 @@ div {
   line-height: 30px;
 }
 
-/* mouse over link */
+/* seudocodes */
 a:hover {
   color: #4aaaa5;
 }
@@ -128,7 +127,6 @@ a:hover {
 a:hover::after {
   color: #4aaaa5;
 }
-
 
 a:visted {
   color: blue;
